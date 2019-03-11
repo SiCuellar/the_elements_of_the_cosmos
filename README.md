@@ -1,4 +1,4 @@
-# Self-Directed Front-End Start Kit
+App can be found here! https://sicuellar.github.io/the_elements_of_the_cosmos/
 
 ## Initial Setup
 
