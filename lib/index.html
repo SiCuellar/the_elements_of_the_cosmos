@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title> The elements of Earth! </title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header>
+    The Elements of Earth <br>
+  </header>
+
+  <div class="search-container">
+    <form action="/action_page.php">
+      <input id="search-input" type="text" placeholder="Search Location" name="search">
+      <button type="submit"  onclick="getWeather()" >Submit</button>
+    </form>
+  </div>
+
+  <nav>
+    <a href="#">Home</a>
+    <a class="reg" href="#">Register</a>
+    <a class="login" href="#">Login</a>
+  </nav>
+
+  <div class="flex-container">
+    <div>current weather information</div>
+    <div>hourly weather information</div>
+  </div>
+
+
+  <script
+    src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js'>
+  </script>
+
+  <script src="main.bundle.js"></script>
+</body>
+</html>

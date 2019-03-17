@@ -1,0 +1,59 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  text-align: center;
+  background: url("https://media.wired.com/photos/5b7f64cbbe2f8d3a624b77b2/master/w_2000,c_limit/SPoW_82318_01.jpg")
+}
+
+header {
+  color: #0701FE;
+  font-weight: 700;
+  display: inline;
+  font-size: 50px;
+}
+
+nav {
+  height: 50px;
+  margin: 10px;
+  /* margin-top: 10px; */
+  /* margin-bottom: 10px; */
+}
+
+a {
+  display: inline-block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-radius: 25px;
+  float: left;
+  border: 1px solid #bbb;
+
+}
+
+a:hover {
+  background-color: #46CEC6;
+  opacity: .90;
+
+}
+
+.reg, .login {
+  float: right;
+}
+
+/*  flex boxes */
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #0701FE;
+  margin: 10px;
+   align-items: center;
+}
+
+.flex-container > div {
+  background-color: #2EFF34;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
